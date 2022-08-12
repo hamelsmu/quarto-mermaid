@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "nb.html",
+    "href": "nb.html",
+    "title": "jupyter-notebook",
+    "section": "",
+    "text": "import ipywidgets as widgets\nwidgets.SelectMultiple(\n    options=['Apples', 'Oranges', 'Pears'],\n    value=['Oranges'],\n    #rows=10,\n    description='Fruits',\n    disabled=False\n)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "qmd file",
+    "section": "",
+    "text": "import ipywidgets as widgets\nwidgets.SelectMultiple(\n    options=['Apples', 'Oranges', 'Pears'],\n    value=['Oranges'],\n    #rows=10,\n    description='Fruits',\n    disabled=False\n)\n\n\n\n\n\nprint('hello')\n\nhello"
+  }
+]
