@@ -1,0 +1,23 @@
+---
+title: "qmd file"
+jupyter: python3
+---
+
+Simple widget
+
+
+```{python}
+import ipywidgets as widgets
+widgets.SelectMultiple(
+    options=['Apples', 'Oranges', 'Pears'],
+    value=['Oranges'],
+    #rows=10,
+    description='Fruits',
+    disabled=False
+)
+```
+
+
+```{python}
+print('hello')
+```
